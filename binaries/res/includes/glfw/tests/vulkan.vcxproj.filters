@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\res\includes\glfw\tests\vulkan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\res\includes\glfw\deps\glad_vulkan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\res\includes\glfw\deps\glad\vulkan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\res\includes\glfw\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FA55ED25-64FA-3DE6-B2E9-A695C214A8F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8B7346B1-64E7-3671-9FB6-4A35C5016F7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

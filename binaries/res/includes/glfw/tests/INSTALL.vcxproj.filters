@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\dfbc0760bf2471120f35179a248948f0\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{62166D9D-E422-302D-93C0-9DA32ECA13F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

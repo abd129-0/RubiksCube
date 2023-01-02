@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{138C08EA-8FD7-31C0-B322-90FF7EC18399}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\res\includes;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\DisplayGLFW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\res\includes;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\DisplayGLFW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\res\includes;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\DisplayGLFW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\res\includes;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\DisplayGLFW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master" "-BC:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/binaries" --check-stamp-file "C:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/binaries/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeCCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeCXXCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeRCCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master" "-BC:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/binaries" --check-stamp-file "C:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/binaries/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeCCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeCXXCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeRCCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master" "-BC:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/binaries" --check-stamp-file "C:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/binaries/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeCCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeCXXCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeRCCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master" "-BC:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/binaries" --check-stamp-file "C:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/binaries/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeCCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeCXXCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeRCCompiler.cmake;C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\3.25.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\ZERO_CHECK.vcxproj">
+      <Project>{A77C077B-4538-3E70-8594-71E915665292}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\Display.vcxproj">
+      <Project>{5D757A30-4F4D-3B52-B874-121FB6DED207}</Project>
+      <Name>Display</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\Engine.vcxproj">
+      <Project>{3D6C77D3-2063-3D60-AAE2-BA954304DB05}</Project>
+      <Name>Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\Game.vcxproj">
+      <Project>{F9B7A9AE-1521-3AE0-827E-CE91AD233886}</Project>
+      <Name>Game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\examples\boing.vcxproj">
+      <Project>{121EBFEF-3D4D-357C-A7E8-2678F93FF597}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\clipboard.vcxproj">
+      <Project>{2D495C84-8D54-3B78-A0BF-2E029ACBE91E}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\cursor.vcxproj">
+      <Project>{A4C16550-3B57-3231-BBD7-E462362C3DA7}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\empty.vcxproj">
+      <Project>{E9C8EACB-71A0-3E72-9ACD-BF7A703BE423}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\events.vcxproj">
+      <Project>{E07A21C6-F7D9-3167-B794-24263F460EC7}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\gamma.vcxproj">
+      <Project>{0C689E43-74E6-341B-B86E-0A0FCC736F7C}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\examples\gears.vcxproj">
+      <Project>{E8971BE8-4110-32ED-94F7-C81E2CC5AA2A}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glad\glad.vcxproj">
+      <Project>{0285ACDE-1F81-38A2-B20E-E47635E1E3E8}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\src\glfw.vcxproj">
+      <Project>{48C9D7AB-0ADC-3780-B43F-4A945617EA2C}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\glfwinfo.vcxproj">
+      <Project>{40E97959-C049-375D-BFB3-A1BB28586EE0}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\examples\heightmap.vcxproj">
+      <Project>{60BDD0EE-E394-3D4A-9571-48F172471C26}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\icon.vcxproj">
+      <Project>{07D1F021-A9A0-3ABD-BDE9-7217D9440829}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\iconify.vcxproj">
+      <Project>{3A1C1591-68BE-3B65-BC66-814933A8FE84}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\inputlag.vcxproj">
+      <Project>{0E635D7F-2D1C-3EE6-848D-77087317DA0B}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\joysticks.vcxproj">
+      <Project>{BDF67588-5E84-34B3-97BE-CB62C0981D7E}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\monitors.vcxproj">
+      <Project>{6F0072BD-FF1C-3721-B85C-57E99BD0D0E3}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\msaa.vcxproj">
+      <Project>{A4F38F38-8297-30C6-A302-99C338519CA8}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\examples\offscreen.vcxproj">
+      <Project>{7820B816-0F30-32F7-999E-DEBA4CB58019}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\opacity.vcxproj">
+      <Project>{F73D585C-8E6C-3947-96D9-C6E297D065C4}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\examples\particles.vcxproj">
+      <Project>{891FA0A5-D244-38AF-86A4-49DAC6B7F170}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\reopen.vcxproj">
+      <Project>{92940D40-7E7A-3E55-873B-93CF865CDBD8}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\examples\sharing.vcxproj">
+      <Project>{AAA8267B-2C6C-3B5F-9A7B-81777AFE1165}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\examples\simple.vcxproj">
+      <Project>{7C668CCE-3D2D-3B45-AEA1-1C72883119DE}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\examples\splitview.vcxproj">
+      <Project>{D34FD700-6A68-3C2F-874F-33BE3906AAA7}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\tearing.vcxproj">
+      <Project>{AFB06FD5-6134-35BC-B51E-74C523260250}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\threads.vcxproj">
+      <Project>{5696E667-107C-38CC-A2FB-6B5064DBE657}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\timeout.vcxproj">
+      <Project>{C31B8567-84A3-3E3D-A444-24927B642994}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\title.vcxproj">
+      <Project>{EB2E7A30-44F2-3E1E-8C8C-672E87E311D3}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\vulkan.vcxproj">
+      <Project>{C8B74995-95AE-3CEE-9211-E761A3A43BD3}</Project>
+      <Name>vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\examples\wave.vcxproj">
+      <Project>{2DDAB11B-658D-33BB-9CFF-B75B414596AE}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\binaries\res\includes\glfw\tests\windows.vcxproj">
+      <Project>{FB517476-CF89-319B-82AA-3D895CECAA6E}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

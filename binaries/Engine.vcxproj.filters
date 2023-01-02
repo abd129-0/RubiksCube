@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\MeshConstructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\MovableGLM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\VertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\obj_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\stb_image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ass3Impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\MeshConstructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\MovableGLM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\stb_image_write.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\Engine3D\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ass3Impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\abdas\OneDrive\Desktop\BasicEngine-master (2)\BasicEngine-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FA55ED25-64FA-3DE6-B2E9-A695C214A8F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8B7346B1-64E7-3671-9FB6-4A35C5016F7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

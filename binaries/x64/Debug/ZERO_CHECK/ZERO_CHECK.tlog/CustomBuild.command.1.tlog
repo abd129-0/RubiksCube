@@ -1,0 +1,10 @@
+^C:\USERS\ABDAS\ONEDRIVE\DESKTOP\BASICENGINE-MASTER (2)\BASICENGINE-MASTER\BINARIES\CMAKEFILES\C2501BFCCA8511F28CD5C4AFE8C0F5CF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master" "-BC:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/binaries" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/abdas/OneDrive/Desktop/BasicEngine-master (2)/BasicEngine-master/binaries/Game.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
